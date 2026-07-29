@@ -1,0 +1,12 @@
+{
+  "name": "stylehub",
+  "private": true,
+  "scripts": {
+    "dev": "cd frontend && npm install && npm run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd frontend && npm run start"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.1"
+  }
+}
